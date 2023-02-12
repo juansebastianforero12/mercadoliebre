@@ -252,8 +252,34 @@ footer{
   }
 }
 
+@media (min-width: 481px) {
+  main section article .description {
+    display: block;
+  }
+
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  main section div.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  main section div.products article {
+    flex-basis: 48%;
+  }
+
+  .price,
+  .discount {
+    width: 50%;
+  }
+}
+
 @media (min-width: 769px) {
-  
   .logo-container{
     flex-direction: row;
 }
@@ -285,5 +311,7 @@ ul{
     width: 45%;
     justify-content: space-between;
 }
-
+  main section div.products article {
+    flex-basis: 24%;
+  }
 }
