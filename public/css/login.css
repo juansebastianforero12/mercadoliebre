@@ -99,13 +99,13 @@ section{
 }
 
 .boton2{
-    width: 90%;
+    width: 127%;
     height: 50px;
     border: none;
     background-color:blue;
     border-radius: 5px 5px 5px 5px;
     text-align: center;
-    margin: 20px;
+    margin: 11px 5px 15px -17px;
     justify-content: center;
     
 }
@@ -115,22 +115,22 @@ section{
     color:#fff
 }
 .input2{
-padding: 18px;
-height: 50px;
-width: 90%;
-border: none;
-background-color: #fff;
-border-radius: 5px 5px 5px 5px;
-margin: 20px;
+  padding: 18px;
+  height: 50px;
+  width: 127%;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  margin: 11px 5px 15px -17px;
 }
 .input3{
-padding: 15px;
-height: 50px;
-width: 90%;
-border: none;
-background-color: #fff;
-border-radius: 5px 5px 5px 5px;
-margin: 20px;
+  padding: 18px;
+  height: 50px;
+  width: 127%;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  margin: 11px 5px 15px -17px;
 
 }
   footer{
@@ -149,6 +149,7 @@ margin: 20px;
   footer div{
     padding: 20px;
   }
+  
   @media (min-width: 768px) {
     .logo-container{
         flex-direction: row;
@@ -180,10 +181,75 @@ margin: 20px;
         justify-content: space-between;
     }
     
-  
-  
-    
-    
    
     }
-    
+    @media (min-width: 768px){
+      
+      .input2{
+        padding: 18px;
+        height: 50px;
+        width: 108%;
+        border: none;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+        margin: 11px 5px 15px -17px;
+      }
+      .input3{
+        padding: 18px;
+        height: 50px;
+        width: 108%;
+        border: none;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+        margin: 11px 5px 15px -17px;
+      
+      }
+      .boton2{
+        width: 108%;
+        height: 50px;
+        border: none;
+        background-color:blue;
+        border-radius: 5px 5px 5px 5px;
+        text-align: center;
+        margin: 11px 5px 15px -17px;
+        justify-content: center;
+        
+    }
+        
+    }
+    @media (min-width: 1024px){
+      .text-email{
+        margin: 10px 88px 4px 3px;
+      }
+      .input2{
+        padding: 18px;
+        height: 50px;
+        width: 105%;
+        border: none;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+        margin: 11px 5px 15px -17px;
+      }
+      .input3{
+        padding: 18px;
+        height: 50px;
+        width: 105%;
+        border: none;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+        margin: 11px 5px 15px -17px;
+      
+      }
+      .boton2{
+        width: 105%;
+        height: 50px;
+        border: none;
+        background-color:blue;
+        border-radius: 5px 5px 5px 5px;
+        text-align: center;
+        margin: 11px 5px 15px -17px;
+        justify-content: center;
+        
+    }
+    }
+        

@@ -7,6 +7,7 @@
   body{
 
     background-color: #ebebeb;
+    margin: 10px;
   }
  
   html{
@@ -20,13 +21,17 @@
   .text-email input{
     padding: 18px;
     height: 50px;
-    width: 90%;
+    width: 85%;
     border: none;
     background-color: #fff;
     border-radius: 5px 5px 5px 5px;
     margin: 20px;
     
   }
+  .text-email{
+    margin: 22px 15px 30px 11px;
+  }
+  
   .radio input{
    
     margin: 20px;
@@ -40,18 +45,21 @@
   .fecha input{
     padding: 18px;
     height: 50px;
-    width: 90%;
+    width: 85%;
     border: none;
     background-color: #fff;
     border-radius: 5px 5px 5px 5px;
     margin: 20px;
+  }
+  .fecha{
+    margin: 10px 15px 24px 10px;
   }
   label input{
     width: 100px;
     margin: 10px;
   }
   .boton2{
-    width: 90%;
+    width: 85%;
     height: 50px;
     border: none;
     background-color:blue;
@@ -62,7 +70,7 @@
     
 }
   .boton3{
-    width: 90%;
+    width: 85%;
     height: 50px;
     border: none;
     background-color:blue;
@@ -77,6 +85,88 @@ a.enviar{
     text-decoration: none;
 }
 
+@media (min-width: 768px){
+  body{
+    margin: 8px 0 0 20px;
+  }
+  .checkbox input{
+  
+    margin: 10px;
+    
+  }
+  
+    body h1 {
+      margin: 13px 1px 10px 62px;
+      font-size: 12px;
+  }
+  .text-email input{
+    padding: 18px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+  }
+ 
+  .text-email{
+    margin: 43px 97px 24px 31px  }
+  
+  .fecha{
+    margin: 0px -17px 29px 24px
+
+}  
+.botones-pie{
+  margin: 10px 10px 10px 69px;
+}
+}
+@media (min-width: 1024px){
+  body{
+    margin: 20px 0 0 50px;
+  }
+  .boton2{
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color:blue;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 0 -42px 10px 20px;    justify-content: center;
+    
+}
+  .boton3{
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color:blue;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 0 -42px 10px 20px;
+        justify-content: center;
+    
+}
+.text-email input{
+  padding: 18px;
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+}
+.text-email{
+  margin: 0px 89px 24px -4px
+}
+
+.fecha{
+  margin: 0px -64px 24px -4px
+
+}
+body{
+
+  margin: 59px 0 0 50px;
+}
+
+
+}
     
     
    
